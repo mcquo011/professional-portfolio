@@ -164,6 +164,11 @@
   color: black !important;
 }
 
+.featurette-image {
+    height: 350px; /* Set the height to your desired value */
+    object-fit: cover; /* Use object-fit to scale the images without stretching */
+  }
+
 @media (min-width: 550px) {
   .bg-image {
       background-image: url(./images/Rocks\ copy.jpg);
